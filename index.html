@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission Control - Home</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>The Observer:Mission to Alpha Centauri</h1>
+        <h2>Mission Status: <span style="color: red">Active</span></h2>
+
+    <nav>
+        <ul>
+            <li><a href="index.html"><strong>Home</strong></a></li>
+            <li><a href="crew.html"><strong>Crew </strong></a></li>
+            <li><a href="status.html"><strong>Status</strong></a></li>
+        </ul></nav>
+        </header>
+
+        <main>
+        
+            <h3><strong>Daily Log : Day 231 </strong></h3>
+        <img src="images/Planet1.jpg" alt="Planet1" width="400">
+        <img src="images/Rocket1.jpg" alt="Rocket1" width="400">
+
+        <footer>
+            <p></p>
+        </footer>
+
+    
+        <p>We are exploring the outer rim of the space.
+            The mission to <strong> Alpha Centauri </strong> is a deep space expidition designed to explore distant star
+            systems and <br>search for potentially habitable planets. The crew aboard the <i>USS Observer</i>
+            will travel for many years through space, collecting data and scanning unknown worlds. <br>
+            Because of the importance of this journey, all mission information is marked <strong>classified</strong> and
+            closely monitored inside by the <em>Graugentaur </em> ship.</p>
+
+        <p>Before leaving Earth, the crew must prepare and bring essential supplies such as <b>food, water, oxygen tanks,
+            medical kits, and scientific instruments</b>. <br> Advanced navigation systems and communication equipment are
+            also installed
+            to ensure the ship can safely reach its destination. <br> Every part of the ship is carefully checked to
+            protect the crew and guarantee the success of the mission </p>
+            
+            <form action="submit_form.html" method="post">
+                <label for="fullName">Name:</label>
+                <input type="text" id="fullName" name="fullname" placeholder="Enter your name" required>
+                <br><br>
+                
+                <label for="department">Department:</label>
+                <select id="department" name="department"required>
+                <option value="">--Choose a department--</option>
+                <option value="Engineering">Engineering</option>
+                <option value="Navigation">Navigation</option>
+                <option value="Pilot">Pilot</option>
+                <option value="research">Research</option>
+            </select>
+            <br><br>
+            <label for=" message">Message:</label><br>
+            <textarea id="message" name="message"rows="4"
+            cols="30"required></textarea>
+            <br><br>
+            <input type="submit"value="Submit">
+        </form>
+    </main>
+
+
+    <footer>
+        <p>copyright 2024 <a href="https://www.nasa.gov" target="_blank">United Space Federation </a> </p>
+        
+    </footer>
+
+</body>
+
+</html>
